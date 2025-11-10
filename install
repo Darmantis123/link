@@ -1,3 +1,0 @@
-mkdir discord_phish
-cd discord_phish
-pip install flask requests
